@@ -1,0 +1,26 @@
+{
+  "name": "peliculasnext",
+  "version": "1.0.0",
+  "description": "Movie app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "Diego Fernando Saavedra",
+  "license": "ISC",
+  "dependencies": {
+    "cuevana3": "^1.0.5",
+    "next": "^12.0.8",
+    "nodemon": "^2.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {}
+}

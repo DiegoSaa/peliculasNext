@@ -1,0 +1,9 @@
+.Estrellas__clip{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 10;
+  width: 10;
+  object-fit:cover;
+  object-position: left;
+}

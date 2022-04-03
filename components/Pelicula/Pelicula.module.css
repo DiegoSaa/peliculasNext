@@ -1,0 +1,81 @@
+.Pelicula__container{
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.Pelicula__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Pelicula__column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 0 0;
+}
+
+.Pelicula__titulo {
+  display: block;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.Pelicula__movie {
+  display: block;
+  width: 200px;
+  height: 350px;
+  padding: 10px;
+  margin: auto 0;
+}
+
+.Pelicula__overview {
+  display: block;
+  max-height: 170px;
+
+  overflow: auto;
+}
+
+.p {
+  font-family: Lobster;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0 5px 0 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.movie h3 {
+  font-size: 17px;
+  text-align: justify;
+}
+.movieImagen {
+  width: 200px;
+  height: 300px;
+}
+
+.ancho {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.estrella {
+  width: 10px;
+  max-width: 10%;
+}
+
+.contenedor-estrella {
+  display: flex;
+}

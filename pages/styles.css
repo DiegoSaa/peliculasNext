@@ -1,0 +1,21 @@
+/* Styles Scrollbar */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  font-family: Roboto;
+  font-size: 800;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(196, 196, 196, 0.7);
+	border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(196, 196, 196, 1);
+}
