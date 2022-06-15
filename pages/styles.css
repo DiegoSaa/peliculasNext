@@ -1,6 +1,13 @@
 /* Styles Scrollbar */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+* {
+  --primary: #11998e;
+  --secondary: #38ef7d;
+  --white: #fff;
+  --gray: #9b9b9b;
+}
+
 body {
   font-family: Roboto;
   font-size: 800;

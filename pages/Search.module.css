@@ -1,0 +1,52 @@
+
+.Movies__container {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Search__container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+  
+  margin: 20px 0px 0px;
+  padding: 0 20px;
+}
+
+.Search__input {
+  width: 100%;
+  min-height: 45px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  color: #6d6e70;
+  margin: 0px;
+  padding: 10px;
+  resize: none;
+}
+
+.Input__field {
+  font-family: inherit;
+  width: 70%;
+  border: 0;
+  border-bottom: 2px solid var(--gray);
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.Input__field::placeholder {
+  color: transparent;
+}
+
+.Input__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
